@@ -1,0 +1,46 @@
+{
+    "java": {
+        "spring-boot-jpa": {
+            "package": "package",
+            "import": "",
+            "controller-annotation": "@RestController('/?')",
+            "declaration": "public class",
+
+            "read-mapping": {
+                "return-type": "Iterable<?>",
+                "function-name": "get?",
+                "parameter": "",
+                "function-return-name": "get?",
+                "annotation": "@GetMapping('/')"
+            },
+            "read-one-mapping": {
+                "return-type": "Iterable<?>",
+                "function-name": "get?",
+                "parameter": "@PathVariable String id",
+                "function-return-name": "get?",
+                "annotation": "@GetMapping('/id')"
+            },
+            "write-mapping": {
+                "return-type": "Iterable<?>",
+                "function-name": "get?",
+                "parameter": "",
+                "function-return-name": "get?",
+                "annotation": "@PostMapping('/')"
+            },
+            "update-mapping": {
+                "return-type": "Iterable<?>",
+                "function-name": "get?",
+                "parameter": "",
+                "function-return-name": "get?",
+                "annotation": "@PutMapping('/')"
+            },
+            "delete-mapping": {
+                "return-type": "Iterable<?>",
+                "function-name": "get?",
+                "parameter": "@PathVariable String id",
+                "function-return-name": "get?",
+                "annotation": "@DeleteMapping('/')"
+            }
+        }
+    }
+}

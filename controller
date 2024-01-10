@@ -1,0 +1,18 @@
+##package## ##package-name##
+
+##import##
+
+##controller-annotation## ##route##
+##declaration## ###class-name# 
+##start##
+
+    ##service##;
+
+    ##constructor##
+    
+    ##read-mapping##
+    ##read-one-mapping##
+    ##write-mapping##
+    ##update-mapping##
+    ##delete-mapping##
+##end##

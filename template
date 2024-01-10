@@ -1,0 +1,8 @@
+##package## ##package-name##
+##import##
+##declaration## ##class-name##
+##start##
+##attributs##
+##getter-setter##
+##methods##
+##end##

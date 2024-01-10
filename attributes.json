@@ -1,0 +1,33 @@
+{
+  "java": {
+    "standart": {
+      "field": "camelCase"
+    },
+    "spring-boot-jpa": {
+      "primarykey": "@Id",
+      "foreignKey": "",
+      "column": "@Column(name = '?')",
+      "methods": "",
+      "annotations-class": "spring-boot-jpa"
+    },
+    "s4-framework": {
+      "primarykey": "@P",
+      "foreignKey": "@F",
+      "column": "@C(name = '?')",
+      "methods": "",
+      "annotations-class": "annotation.dao"
+    }
+  },
+  "dotnet": {
+    "standart": {
+      "field": "camelCase"
+    },
+    "entityframework": {
+    "primarykey": "[Key]",
+    "foreignKey": "",
+    "column": "[Column('?')]",
+    "methods": "",
+    "annotations-class": "Column"
+    }
+  }
+}

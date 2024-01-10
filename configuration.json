@@ -1,0 +1,29 @@
+
+{
+    "language": {
+        "java": {
+            "isTiped": true,
+            "singleton" : true
+        },
+        "dotnet": {
+            "idTiped": true,
+            "singleton" : true
+        }
+    },
+    "package": {
+        "java": "package",
+        "dotnet": "namespace"
+    },
+    "import": {
+        "java": "import",
+        "dotnet": "using"
+    },
+    "class-declaration": {
+        "java": "public class",
+        "dotnet": "class"
+    },
+    "encapsulation":{
+        "java": "public t? get#?(){\n return this.?; \n } \n public void set#?(t? n?){\n return this.? = ?; \n }",
+        "dotnet": "[NotMapped] public t? #?{\n get {return this.? \n} \n set {\n this.? = value \n}"
+    }
+}

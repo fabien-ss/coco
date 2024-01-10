@@ -1,0 +1,50 @@
+{
+  "java": {
+    "int": {
+      "type":"Integer",
+      "class":"java.lang.Integer"  
+    },
+    "double": {
+      "type":"Double",
+      "class": "java.lang.Double"
+    },
+    "varchar": {
+      "type":"String",
+      "class":"java.lang.String"
+    },
+    "timestamp": {
+      "type":"Timestamp",
+      "class":"java.util.sql.Timestamp"
+    },
+    "date": {
+      "type":"Date",
+      "class":"java.util.sql.Date"
+    },
+    "varying":{
+      "type":"String",
+      "class":"java.lang.String"
+    }
+  },
+  "dotnet": {
+    "int": {
+      "type":"int",
+      "class":""  
+    },
+    "double": {
+      "type":"double",
+      "class": ""
+    },
+    "varchar": {
+      "type":"string",
+      "class":""
+    },
+    "timestamp": {
+      "type":"DateTime",
+      "class":""
+    },
+    "date": {
+      "type":"DateOnly",
+      "class":""
+    }
+  }
+}
